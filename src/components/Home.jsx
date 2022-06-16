@@ -34,7 +34,7 @@ const Home = () => {
   const handleFilter = (e) => {
     e.preventDefault()
     if (!filter.status && !filter.gender && !filter.species) {
-       alert("Select a filter type")
+      alert("Select a filter type")
     } else {
       dispatch(filterBy(filter))
     }
@@ -94,11 +94,6 @@ const Home = () => {
 
   return (
     <div className={style.contenedor}>
-
-      <br />
-      <div className={style.cuad}>
-
-      </div>
 
       <SearchBar />
 

@@ -1,0 +1,108 @@
+.contenedor {
+    background-image: url('../images/fondo4.jpg');
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 300vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.character {
+    display: inline-block;
+    margin: 15px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, .15);
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    max-width: 250px;
+}
+
+.character img {
+    height: 220px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.character:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    filter: brightness(1.15);
+}
+
+.contenedorCharacter {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.character a {
+    text-decoration: none;
+    color: black;
+}
+
+.character h1 {
+    margin-top: 20px;
+    color: white;
+}
+
+.paginado {
+    margin-top: 30px;
+    /* margin-top: 15px; */
+    display: flex;
+    justify-content: center;
+}
+
+.filtrado {
+    margin-top: 40px;
+    /* margin-top: 15px; */
+    display: flex;
+    justify-content: center;
+}
+
+.filtrado select {
+    background-color: gray;
+    border: 2px solid black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    width: 125px;
+    margin-left: 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filtrado button {
+    background-color: red;
+    border: 2px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+    margin-left: 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cuad {
+    display: flex;
+    background-color: gray;
+    padding: 25px;
+}

@@ -1,0 +1,50 @@
+.landing {
+    background-image: url('../images/rick-y-morty.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing button {
+    height: 150px;
+    width: 150px;
+    background: transparent;
+    border: none;
+    background-image: url('../images/logo.gif');
+    background-size: cover;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.landing button:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+    filter: brightness(1.2); 
+}
+
+.landing h1 {
+    /* background-color: rgba(255, 255, 255, .15);  */
+    /* box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 220px;
+    color: rgb(134, 255, 47);
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1)
+}

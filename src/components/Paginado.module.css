@@ -1,0 +1,13 @@
+.contenedor button {
+    background-color: rgb(40, 174, 40);
+    margin-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+    height: 30px;
+    width: 60px;
+    margin-left: 10px;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contenedor input {
+    background-color: rgba(0, 128, 0, 0.237);
+    margin-left: 5px;
+}
+
+.search {
+    color: white;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.submit {
+    font-size: 30px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: green;
+}
